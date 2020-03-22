@@ -1,0 +1,18 @@
+We can use github to make a website (E.g. abc1211.github.io). But,
+	
+	How can i decide which html file is the page i can see
+	when someone entered the website link stated above?
+	
+	If inside my repository, there are multiple folder inside,
+	is it possible for me to setup links which connect to the
+	other html file in the same repository?
+	(I will make a drawing in JPG for you to understand better)
+	
+	What is master branch and how these branches works?
+
+	How to make a good git commit massage (how you usually do?)
+
+	Any good practice which you think you should have done
+	what i mean here is when you learn more, your html file will
+	become more and more complicated. What practice you would 
+	suggest to make things clear?

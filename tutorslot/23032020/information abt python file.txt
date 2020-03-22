@@ -1,0 +1,8 @@
+The Python file attached is copied from Youtube
+
+url: https://www.youtube.com/watch?v=f5dU3xoE6ms
+
+It is a code for Binary Search Tree. What i want
+to know is how the function works and sort out
+the number from small to large and from left bottom
+to the right bottom.
