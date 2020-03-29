@@ -1,0 +1,13 @@
+body {
+    background-image: url("/github_website/abc1211.github.io/week2/homework/assets/image_use/background.jfif");
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+::before{
+    padding-top: 50px;
+}
+
+::after{
+    padding-bottom: 50px;
+}
