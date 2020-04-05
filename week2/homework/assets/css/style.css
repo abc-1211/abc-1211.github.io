@@ -1,13 +1,48 @@
-body {
-    background-image: url("/github_website/abc1211.github.io/week2/homework/assets/image_use/background.jfif");
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
-}
 
-::before{
-    padding-top: 50px;
-}
+/*index*/
 
-::after{
-    padding-bottom: 50px;
-}
+    /*navbar*/
+    .n{
+        background-color: white;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        padding-right: 1rem;
+        padding-left: 2rem;
+    }
+
+    .nl{
+
+    }
+    .nav-topic{
+        background-color: cadetblue;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+    }
+
+
+    /*content*/
+    body{
+        width:1920px;
+        height:1080px;
+        background-image: url("https://images.unsplash.com/photo-1536566482680-fca31930a0bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1868&q=80");
+    }
+
+    #background{
+        background-image: url("https://images.unsplash.com/photo-1536566482680-fca31930a0bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1868&q=80");
+        padding-top: 30px;
+        padding-left: 40px;
+        padding-bottom: 60px;
+        margin: 0px;
+    }
+
+    .c1{
+        float:left;
+        width: 66.7%;
+        background-color: white;
+    }
+
+    img.ironman {
+        float:left; 
+    }
