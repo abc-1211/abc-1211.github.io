@@ -1,48 +1,63 @@
+.navbackground{
+    background-color: #ff82f9f3;
+}
 
-/*index*/
+body{
+    background-color: rgb(190, 190, 190);
+}
 
-    /*navbar*/
-    .n{
-        background-color: white;
-        position: relative;
-        display: flex;
-        flex-wrap: wrap;
-        padding-right: 1rem;
-        padding-left: 2rem;
+.block1{
+    background-color: white;
+    padding: 20px;
+}
+
+.input{
+    padding-left: 5px;
+}
+
+@media (max-width:979px) and (min-width: 768px){
+    img{
+        width: 300px;
+        padding-right: 10px;
+        float: left;
     }
 
-    .nl{
-
-    }
-    .nav-topic{
-        background-color: cadetblue;
-        padding-left: 15px;
-        padding-right: 15px;
-        text-align: center;
+    .wraptext{
+        word-wrap: break-word;
     }
 
-
-    /*content*/
-    body{
-        width:1920px;
-        height:1080px;
-        background-image: url("https://images.unsplash.com/photo-1536566482680-fca31930a0bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1868&q=80");
+    
+    .image_block > img{
+        padding: 0px 10px 15px 10px;
+        width: 50%;
+        float: left;
     }
 
-    #background{
-        background-image: url("https://images.unsplash.com/photo-1536566482680-fca31930a0bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1868&q=80");
-        padding-top: 30px;
-        padding-left: 40px;
-        padding-bottom: 60px;
-        margin: 0px;
+    .block1{
+        width: 100%;
+        float: left;
     }
 
-    .c1{
-        float:left;
-        width: 66.7%;
-        background-color: white;
+}
+
+@media only screen and (min-width: 980px){
+    .block1{
+        width: 65%;
+        float: left;
     }
 
-    img.ironman {
-        float:left; 
+    img{
+        width: 300px;
+        float: left;
     }
+
+    .wraptext{
+        word-wrap: break-word;
+    }
+
+    .image_block > img{
+        padding: 0px 10px 15px 10px;
+        width: 50%;
+        float: left;
+    }
+}
