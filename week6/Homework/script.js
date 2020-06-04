@@ -21,7 +21,7 @@ function locationbtn(input){
 
 // ajax call
 function search(city){
-    var apiURL = "http://api.openweathermap.org/data/2.5/forecast?q=" + city + "&APPID=4561dbb858c01c0096262a7277c1ba4a";
+    var apiURL = "https://api.openweathermap.org/data/2.5/forecast?q=" + city + "&APPID=4561dbb858c01c0096262a7277c1ba4a";
     $.ajax({
         url: apiURL,
         method: "GET"
@@ -46,7 +46,7 @@ function search(city){
         var temperature1 = "Temperature: " + (data.list[0].main.temp - 273).toFixed(1) + String.fromCharCode(8451);
         var humidity1 = "Humidity: " + data.list[0].main.humidity + "%";
         var windspeed1 = "Wind Speed: " + data.list[0].wind.speed + " MPH";
-        var uvurl = "http://api.openweathermap.org/data/2.5/uvi?appid=4561dbb858c01c0096262a7277c1ba4a&lat=" + lat + "&lon=" + lon;
+        var uvurl = "https://api.openweathermap.org/data/2.5/uvi?appid=4561dbb858c01c0096262a7277c1ba4a&lat=" + lat + "&lon=" + lon;
         uvget(uvurl);
         $("#location-search").html(location);
         $("#temperature").text(temperature1);
