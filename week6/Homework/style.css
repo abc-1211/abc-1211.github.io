@@ -1,0 +1,25 @@
+ul {
+    list-style-type: none;
+    line-height: 30px;
+}
+
+.left{
+    float: left;
+}
+
+button{
+    text-align: left;
+}
+
+.top-space{
+    padding-top: 2rem;
+}
+
+.left-space{
+    padding-left: 1rem;
+}
+
+#small-text{
+    font-size: 12px;
+    display: none;
+}
