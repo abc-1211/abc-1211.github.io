@@ -1,0 +1,20 @@
+.team-heading {
+    background-color: greenyellow;
+    color: black;
+}
+
+.card {
+    width: 250px;
+}
+
+.role-title {
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.employee-card {
+    margin: 10px;
+}
+
+
